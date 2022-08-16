@@ -1,2 +1,2 @@
 # odin-recipes
-the first HTNL project from Odin Assignment
+the first HTML project from Odin Assignment
