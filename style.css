@@ -92,4 +92,48 @@ input.back-home:active{
     padding: 0
 }
 
+div.menu li{
+    padding: 0px;
+    margin: 0px;
 
+}
+
+.menu{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-color: #93a2a6;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1px;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+span{
+    margin: auto;
+}
+
+a.menulink{
+    margin: 0px;
+    display: inline-block;
+}
+
+div.menu:hover{
+    background-color: #89c8db;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.menu:active{
+    background-color: #78adbd;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.menumain{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    align-items: center;
+}
