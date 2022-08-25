@@ -1,0 +1,95 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:active, a:visited, a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #325873;  
+}
+
+
+h1, h2{
+    text-align: center;
+    padding: 0px
+}
+
+p.description{
+    text-align: center;
+    font-size: 16px;
+    max-width: 700px;
+    margin: auto;
+}
+
+img{
+    display: block;
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+
+.horizontal-line, .horizontal-line-thin, .horizontal-line-thin2{
+    margin: 20px auto 20px auto;   
+}
+
+.horizontal-line{
+    background-color: #93a2a6;
+    height: 4px;
+    width: 80%;
+}
+
+.horizontal-line-thin2{
+    height: 1px;
+    width: 50%;
+    background-color: #000000;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+ol.cook-step{
+    list-style:none
+}
+
+input.back-home{
+    background-color: #66a6db;
+    color: #FFFFFF;
+    font-weight: 800;
+    border-radius: 10px 10px 10px 10px;
+    border: 0px; 
+    height: 30px;
+    width: 100px;
+    display: block;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+input.back-home:hover{
+    background-color: #4a7aa1;
+}
+
+input.back-home:active{
+    color: #000000;
+}
+
+
+.menulist, .cook-step{
+    font-size: 16px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 0
+}
+
+
